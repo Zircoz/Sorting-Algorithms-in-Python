@@ -3,8 +3,8 @@
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
 
 ## Guidelines (IMPORTANT)
-Mention the appropiate issue number in your pull request.
-Please test your script before sumitting pull requests.
+- Mention the appropiate issue number in your pull request.
+- Please test your script before sumitting pull requests.
 
 ## Current List of Sorting Algos:
 
