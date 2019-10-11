@@ -7,10 +7,12 @@
 - Please test your script before sumitting pull requests.
 
 ## Current List of Sorting Algos:
+- [Quick Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/blob/master/QuickSort.py)
+- [Selection Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/blob/master/Selection_Sort.py)
+- [Insertion Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/blob/master/insertion_sort.py)
+- [Merge Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/blob/master/merge_sort.py)
 
 
 ## Proposed List of Sorting Algos:
-*(With hyperlinks to their respective issues)*
 
 - [Bubble Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/issues/1)
-- [Quick Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/issues/3)
