@@ -27,7 +27,13 @@ def selection_sort(alist):
 
 if __name__ == '__main__':
 
-    arr = [1, 12, 11, -2, 13, 0, 6, 7]
+    arr = []
+    data = input("Enter a number(press N/n to stop the enteries) : ")
+    while data not in ["n","N"]:
+        arr.append(int(data))
+        data = input("Enter a number(press N/n to stop the enteries) : ")
+        
+        
     print ('Given array is', end='\n')
     print(*arr)
 
