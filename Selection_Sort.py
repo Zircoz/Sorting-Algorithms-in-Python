@@ -35,3 +35,15 @@ if __name__ == '__main__':
 
     print('Sorted array is:', end='\n')
     print(*arr)
+        print('Try with your numbers')
+    print('Enter numbers one by one, enter "*" to stop entering:')
+    arr = []
+    while True:
+        num = input()
+        if(num == "*"):
+            break
+        arr.append(int(num))
+    
+    selection_sort(arr)
+    print('Sorted Array: ')
+    print(*arr)
