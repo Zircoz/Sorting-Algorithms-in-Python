@@ -6,7 +6,7 @@ Create an inner loop with a loop variable j that counts from i + 1 up to the len
 Inside the inner loop, if the elements at index j is smaller than the element at index smallest, then set smallest equal to j.
 After the inner loop finishes, swap the elements at indexes i and smallest.
 
-Author: Shriya Madan
+Author: Shriya Madan & Kaushal Agarwal
 '''
 
 #Improvement in input methods
