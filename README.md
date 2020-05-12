@@ -5,6 +5,7 @@
 ## Guidelines (IMPORTANT)
 - Mention the appropiate [issue number](https://help.github.com/en/articles/autolinked-references-and-urls#issues-and-pull-requests) in your pull request.
 - Please test your script before sumitting pull requests.
+- Please use 3.x python only.
 
 ## Current List of Sorting Algos:
 - [Quick Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/blob/master/QuickSort.py)
