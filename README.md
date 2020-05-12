@@ -16,3 +16,7 @@
 ## Proposed List of Sorting Algos:
 
 - [Bubble Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/issues/1)
+
+## License:-
+
+-- The total repository is licensed via [GNU Public License 3.0](https://github.com/blackeye735/Sorting-Algorithms-in-Python/blob/master/LICENSE)
