@@ -6,8 +6,109 @@ Create an inner loop with a loop variable j that counts from i + 1 up to the len
 Inside the inner loop, if the elements at index j is smaller than the element at index smallest, then set smallest equal to j.
 After the inner loop finishes, swap the elements at indexes i and smallest.
 
-Author: Shriya Madan
+Author: Shriya Madan & Kaushal Agarwal
 '''
+
+#Improvement in input methods
+'''
+To take different type of input " list_input() " main method is called in Driver Code. 
+It provides to possible option to user as either user enter the length of array or  not.
+if user enter length of array then array takes input for user until length of reached in different interactive form. Some example are given below:-
+example length of array  is 10 
+input format 1-
+2 3 2 5  5 65 7 4 10 966
+
+input format 2-
+52 363
+12 3365
+1252 6662 545322
+12 3
+56
+
+input format 3-
+23
+45
+12
+52
+32
+85
+10
+12
+32
+52
+
+if user choose option second to not specify the length of array then array store input untill 'user enter '$' or any character except integer or float'
+input format 1-
+2 3 2 5  5 65 7 4 10 966 $
+
+input format 2-
+52 363
+12 3365
+1252 6662 545322
+12 3
+56 $
+
+input format 3-
+23
+45
+12
+52
+32
+85
+10
+12
+32
+52
+$
+Improved by Kaushal Agarwal
+'''
+
+
+def with_length():
+    flag = 1
+    while(flag):
+        print("Length of array")
+        try:
+            n = int(input())
+            flag=0
+        except:
+            flag=1
+
+    print("It only store first ",n," elements.")
+    print("\nEnter your elements.")
+    arr =[]
+    while len(arr)<n:
+        val = list(map(float,input().split()))
+        length = n - len(arr)
+        if len(val)>length:
+            arr = arr+val[:length]
+        else:
+            arr = arr+val
+    return arr
+def without_length():
+    print("Array only takes integer or float inputs. Enter '$' to stop")
+    arr = list(map(float,input().split()))
+    while(1):
+        val = input().split()
+        for x in val:
+            try:
+                x = float(x)
+            except:
+                return arr
+            arr.append(float(x))
+
+
+def list_input():
+    ch =""
+    while ch not in ['y','n','Y','N']:
+        print("Want to specify the length of arry y/n ",end=' ')
+        ch = input()
+    if ch=='Y' or ch=='y':
+        arr = with_length()
+        return arr
+    else:
+        arr= without_length()
+        return arr
 
 
 def selection_sort(alist):
@@ -27,7 +128,7 @@ def selection_sort(alist):
 
 if __name__ == '__main__':
 
-    arr = [1, 12, 11, -2, 13, 0, 6, 7]
+    arr = list_input()   # improved way of taking input us list_input()
     print ('Given array is', end='\n')
     print(*arr)
 
