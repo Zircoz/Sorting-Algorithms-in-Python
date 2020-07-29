@@ -1,3 +1,5 @@
+This repo is archived for lack of activity and might (if it does) get unarchived at the time of future hacktoberfests. If you are interested in resolving the still open issue(s), drop me a messege [HERE](https://m.me/Zircoz).
+
 # Sorting-Algorithms-in-Python
 
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
