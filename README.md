@@ -16,6 +16,7 @@
 - [Bubble Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/blob/master/bubbleSort.py)
 - [Counting Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/blob/master/counting_sort.py)
 - [Heap Sort](https://github.com/blackeye735/Sorting-Algorithms-in-Python/blob/master/Heapsort.py)
+- [Bucket Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/blob/master/bucket_sort.py)
 
 ## Proposed List of Sorting Algos:
 
