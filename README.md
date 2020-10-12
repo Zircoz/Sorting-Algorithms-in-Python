@@ -5,7 +5,7 @@
 ## Guidelines (IMPORTANT)
 - Mention the appropriate [issue number](https://help.github.com/en/articles/autolinked-references-and-urls#issues-and-pull-requests) in your pull request.
 - If the algo you want to add is not in issues or Proposed List yet, make a new issue.
-- Please test your script before sumitting pull requests.
+- Please test your script before submitting pull requests.
 - Please use 3.x python only.
 
 ## Current List of Sorting Algos:
