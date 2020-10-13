@@ -18,6 +18,8 @@
 - [Heap Sort](https://github.com/blackeye735/Sorting-Algorithms-in-Python/blob/master/Heapsort.py)
 - [Bucket Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/blob/master/bucket_sort.py)
 - [Tree Sort](https://github.com/Zircoz/Sorting-Algorithms-in-Python/blob/master/tree_sort.py)
+- [ShellSort](https://github.com/saxena-rishabh/Sorting-Algorithms-in-Python/blob/master/ShellSort.py)
+
 
 
 ## Proposed List of Sorting Algos:
