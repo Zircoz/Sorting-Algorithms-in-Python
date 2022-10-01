@@ -1,0 +1,19 @@
+def shell_sort(my_list, list_len):
+   interval = list_len // 2
+   while interval > 0:
+      for i in range(interval, list_len):
+         temp = my_list[i]
+         j = i
+         while j >= interval and my_list[j - interval] > temp:
+            my_list[j] = my_list[j - interval]
+            j -= interval
+         my_list[j] = temp
+      interval //= 2
+
+my_list = [ 45, 31, 62, 12, 89, 5, 9, 8]
+list_len = len(my_list)
+print ("The list before sorting is :")
+print(my_list)
+shell_sort(my_list, list_len)
+print ("\nThe list after performing shell sorting is :")
+print(my_list)
